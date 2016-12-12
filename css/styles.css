@@ -4,6 +4,20 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  width: 100%;
+  padding: 20px;
+  height: 60px;
+  font-size: 20px;
+  background: #f44242; }
+  .navbar a {
+    color: white;
+    margin-left: 20px; }
+
 .container {
   width: 95%;
   margin: auto;

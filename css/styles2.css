@@ -1,0 +1,77 @@
+.navbar {
+  width: 100%;
+  padding: 20px;
+  height: 60px;
+  font-size: 20px;
+  background: #f44242; }
+  .navbar a {
+    color: white;
+    margin-left: 20px; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px; }
+
+.pip {
+  display: block;
+  background-color: black;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%; }
+
+.first-face {
+  border-radius: 10px;
+  border: 2px gray solid;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.second-face {
+  border-radius: 10px;
+  border: 2px gray solid;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between; }
+
+.third-face {
+  border-radius: 10px;
+  border: 2px gray solid;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between; }
+
+.fourth-face {
+  border-radius: 10px;
+  border: 2px gray solid;
+  width: 200px;
+  height: 200px; }
+
+.fifth-face {
+  border-radius: 10px;
+  border: 2px gray solid;
+  width: 200px;
+  height: 200px; }
+
+.sixth-face {
+  border-radius: 10px;
+  border: 2px gray solid;
+  width: 200px;
+  height: 200px; }
+
+/*# sourceMappingURL=styles2.css.map */
