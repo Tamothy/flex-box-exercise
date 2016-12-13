@@ -9,12 +9,11 @@
   a {
     color: white;
     margin-left: 20px;
+    text-decoration: none;
   }
 }
 
 *, *::before, *::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -37,6 +36,7 @@ body {
   border-radius: 100%;
 }
 .first-face {
+  padding: 10px;
   border-radius: 10px;
   border: 2px gray solid;
   width: 200px;
@@ -46,36 +46,62 @@ body {
   align-items: center;
 }
 .second-face {
+  padding: 10px;
   border-radius: 10px;
   border: 2px gray solid;
   width: 200px;
   height: 200px;
   display: flex;
   justify-content: space-between;
+  .pip:nth-child(2){
+    align-self: flex-end;
+  }
 }
 .third-face {
+  padding: 10px;
   border-radius: 10px;
   border: 2px gray solid;
   width: 200px;
   height: 200px;
   display: flex;
   justify-content: space-between;
+  .pip:nth-child(2){
+    align-self: center;
+    justify-content: center;
+  }
+  .pip:nth-child(3){
+    align-self: flex-end;
+  }
 }
 .fourth-face {
+  padding: 10px;
   border-radius: 10px;
   border: 2px gray solid;
   width: 200px;
   height: 200px;
+  display: flex;
 }
 .fifth-face {
+  padding: 10px;
   border-radius: 10px;
   border: 2px gray solid;
   width: 200px;
   height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .sixth-face {
+  padding: 10px;
   border-radius: 10px;
   border: 2px gray solid;
   width: 200px;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;;
+  align-items: center;
+  .pip {
+    margin-bottom: 20px;
+  }
 }
